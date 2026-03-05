@@ -2,6 +2,7 @@ import './App.css'
 import ProductTab from "./ProductTab.jsx"
 import Likebutton from './likeButton.jsx'
 import Msg from "./msg.jsx"
+import Todo from "./todo.jsx"
 
 
 function Title() {
@@ -20,10 +21,11 @@ function App() {
       <Title />
       <h1 id='h12'>This Is my App</h1>
       <ProductTab />
-      <Msg Name="Hi..I am a Developer" Colour="Red"/>
-      <Msg Name="Hi..I am a Developer" Colour="blue"/>
+      <Msg Name="Hi..I am a Developer" Colour="Red" />
+      <Msg Name="Hi..I am a Developer" Colour="blue" />
       <p>I am Hitesh Kumar age {age}</p>
-      <Likebutton/>
+      <Likebutton />
+      <Todo />
       <Foot />
     </>
   )
