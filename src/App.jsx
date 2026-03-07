@@ -3,6 +3,8 @@ import ProductTab from "./ProductTab.jsx"
 import Likebutton from './likeButton.jsx'
 import Msg from "./msg.jsx"
 import Todo from "./todo.jsx"
+import Lottery from "./Lottery.jsx"
+import Form from "./form.jsx"
 
 
 function Title() {
@@ -25,7 +27,9 @@ function App() {
       <Msg Name="Hi..I am a Developer" Colour="blue" />
       <p>I am Hitesh Kumar age {age}</p>
       <Likebutton />
+      <Lottery winningno={5} winningsum={24}/>
       <Todo />
+      <Form/>
       <Foot />
     </>
   )

@@ -1,0 +1,23 @@
+.ticket{
+    text-align: center;
+    width: 300px;
+    display:"flex";
+    gap:"15px";
+    justify-Content:"center";
+    position: relative;
+    left: 470px;
+    
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+   
+}
+.ticketnum{
+    margin: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 7px;
+
+}
