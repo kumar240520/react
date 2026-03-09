@@ -88,11 +88,11 @@ export default function SearchBox() {
                     <>
                         <span className="tilted-card-demo-text">
 
-                            <h2>{weather.cityname && weather.cityname.toUpperCase()}</h2>
+                            <h2 className="names">{weather.cityname && weather.cityname.toUpperCase()}</h2>
 
                             <h3>{weather.temp} °C</h3>
 
-                            <h3> {weather.condition}</h3>
+                            <h3 className="cond"> {weather.condition}</h3>
 
                             <span className="sub"><p>Pressure: <b>{weather.pressure}%</b> &nbsp; &nbsp;Humidity: <b>{weather.humidity}%</b></p></span>
 
