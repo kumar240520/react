@@ -1,0 +1,13 @@
+.searchbox{
+    position: relative;
+    top: -100px;
+    margin-top: 30px;
+    
+}
+
+.deelete{
+    
+    height: 40px;
+    width: 60px;
+    text-align: center;
+}

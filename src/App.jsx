@@ -5,7 +5,7 @@ import Msg from "./msg.jsx"
 import Todo from "./todo.jsx"
 import Lottery from "./Lottery.jsx"
 import Form from "./form.jsx"
-
+import SearchBox from './SearchBox.jsx'
 
 function Title() {
   return <h1>I am A Python Programmer</h1>
@@ -16,11 +16,11 @@ function Foot() {
 }
 
 function App() {
-  let age = "21"
+  // let age = "21"
 
   return (
     <>
-      <Title />
+      {/* <Title />
       <h1 id='h12'>This Is my App</h1>
       <ProductTab />
       <Msg Name="Hi..I am a Developer" Colour="Red" />
@@ -30,7 +30,8 @@ function App() {
       <Lottery winningno={5} winningsum={24}/>
       <Todo />
       <Form/>
-      <Foot />
+      <Foot /> */}
+      <SearchBox/>
     </>
   )
 }
